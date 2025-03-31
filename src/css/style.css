@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    width: 100dvw;
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1b1b1b;
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #2b2b2b;
+    width: 80vw;
+    height: 40vh;
+
+    background-color: #3b3b3b;
+    color: white;
+}
+
+.calc input{
+    margin: 8px;
+    background-color: whitesmoke;
+    border: 1px solid transparent;
+    outline: none;
+
+    width: 90%;
+    height: 50px;
+}
+
+.calc button{
+    text-decoration: none;
+    width: 40%;
+    height: 50px;
+}
